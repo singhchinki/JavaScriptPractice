@@ -34,16 +34,58 @@
 // console.log(result1);
 
 // Synchronusly
-var sychVsAsych
+//var sychVsAsych
+// var sychVsAsych
 
 // console.log('Hi!');
 // console.log('Good Morning');
 // console.log('How are you?');
 
-console.log('hi');
-setTimeout[() => {
-    console.log('hello');
-}, 5000];
+// console.log('hi');
+// setTimeout[() => {
+//     console.log('hello');
+// }, 5000];
 
-console.log('I am good');
+// console.log('I am good');
  
+
+// console.log('hi');
+// setTimeout[() => {
+//     console.log('hello');
+// }, 5000];
+
+// console.log('I am good');
+
+// hosting variable with var, let, const
+// program to display value
+// var a = 4;
+
+// function greet() {
+//     b = 'hello';
+//     console.log(b); // hello
+//     var b;
+// }
+
+// greet(); // hello
+// console.log(b);
+
+// program to print the text
+// greet();
+
+// let greet = function() {
+//     console.log('Hi, there.');
+// }
+
+//  program that shows the delay in execution
+
+function greet() {
+    console.log('Hello world');
+}
+
+function sayName(name) {
+    console.log('Hello' + ' ' + name);
+}
+
+// calling the function
+setTimeout(greet, 2000);
+sayName('John');
